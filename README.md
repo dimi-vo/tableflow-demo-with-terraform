@@ -22,7 +22,7 @@ What is not covered
 3. Check the plan
 4. Apply the plan `terraform apply "planned.tfplan"`
 5. Check that data is generated and Tableflow syncing works
-6. Wait a few minutes after the resources have been created for the data to be flushed.
+6. Wait ca. 15 minutes after the resources have been created for Tableflow to flush the data.
 7. Run `terraform output resource-ids` and follow the instructions
 
 The output of the query should be similar to the following
