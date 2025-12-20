@@ -1,0 +1,23 @@
+# Cloud API Keys
+confluent_cloud_api_key    = "APIKEY"
+confluent_cloud_api_secret = "APISECRET"
+
+# AWS Region
+aws_account_id = "AWSACCOUNTID"
+cc_region = "cc_region" # e.g. eu-central-1
+# AWS Credentials
+# You may need to define the ones below
+#AWS_ACCESS_KEY_ID
+#AWS_SECRET_ACCESS_KEY
+# or you may have to update your ./aws/credentials file
+
+customer_region = "region" # e.g. eu-central-1
+
+#  Cloud Provider
+cloud_provider = "AWS"
+
+# The bucket name should exist already
+bucket_name = "your-name-test"
+
+tableflow_table_format = ["ICEBERG"] # ICEBERG or DELTA
+iam-username = "your-iam-username"
