@@ -31,3 +31,5 @@ terraform.rc
 
 # Ignore this file
 .terraform.lock.hcl
+
+.DS_Store
